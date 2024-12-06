@@ -11,7 +11,6 @@ Using the UML diagram provided by Ms. Schott, add the following classes. Include
 - Entity
 - Stats
 - Monster
-- Adventurer
 - Item
 - Consumable
 - Equipment
@@ -25,3 +24,6 @@ Per the UML diagram, modify the existing classes to utilize inheritance or compo
 
 #### Adventurer
 Move Stats and the related methods to the Stats class.
+
+#### Your equipment
+Remove any instance variables that are not currently being used by your class.
