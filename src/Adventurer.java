@@ -1,4 +1,4 @@
-public class Adventurer {
+public class Adventurer extends Entity {
     private String name;
     private int maxHP;
     private int currentHP;
@@ -6,6 +6,7 @@ public class Adventurer {
     private int currentMP;
     private int hardiness;
     private int wisdom;
+    
 
     public Adventurer(String name) {
         this.name = name;
